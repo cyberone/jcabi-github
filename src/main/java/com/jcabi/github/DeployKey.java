@@ -49,6 +49,8 @@ import java.io.IOException;
  *  RtDeployKey and MkDeployKey, and add an integration test for it. See
  *  http://developer.github.com/v3/repos/keys/#delete. When done, remove this
  *  puzzle.
+ * @todo #356 There should be get() method implemented for reading the value
+ *  of title and key. See http://developer.github.com/v3/repos/keys/#get
  */
 @Immutable
 public interface DeployKey extends JsonReadable {
